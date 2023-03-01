@@ -1,0 +1,358 @@
+.App {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-error {
+  margin: 0px;
+  height: 50px;
+  color: red;
+}
+
+.top-bar {
+  width: inherit;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+}
+
+.activated {
+  width: 10vw;
+  height: 40px;
+  box-shadow: 2px 2px 4px black;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.activated2 {
+  width: 10vw;
+  height: 40px;
+  box-shadow: 2px 2px 4px black;
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.activated2:active {
+  background-color: darkred;
+  box-shadow: none;
+}
+
+.deactivated {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: saddlebrown;
+}
+
+.box {
+  width: inherit;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.dashboard-box {
+  width: inherit;
+  border: 2px solid black;
+  box-shadow: 2px 2px 4px gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgoldenrod;
+}
+
+.form-box {
+  width: 90%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register, .login {
+  border: 2px solid black;
+  box-shadow: 2px 2px 4px black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+}
+
+.add-pirate {
+  width: 25vw;
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pirate-card {
+  border: 2px solid black;
+  width: 60%;
+  margin: 15px;
+  box-shadow: 2px 2px 4px black;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.input-field {
+  width: 16vw;
+  height: 100px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: red;
+}
+
+.border-red {
+  border: 2px solid red;
+}
+
+label {
+  font-weight: normal;
+  color: darkred;
+}
+
+.label-blue {
+  font-weight: normal;
+  color: blue;
+}
+
+input {
+  padding: 5px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.reg-btn {
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 4px black;
+  background-color: cornflowerblue;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.activated:active, .reg-btn:active {
+  box-shadow: none;
+  background-color: cyan;
+  color: darkblue;
+}
+
+.log-err {
+  padding: 5px;
+  height: 25px;
+}
+
+.button-panel {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+select {
+  height: 5vh;
+  width: 13vw;
+}
+
+.panel {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel2 {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: blue;
+}
+
+.btn-green {
+  width: 4vw;
+  height: 4vh;
+  box-shadow: 2px 2px 4px black;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-green:active {
+  box-shadow: none;
+  background-color: darkgreen;
+}
+
+.btn-red {
+  width: 4vw;
+  height: 4vh;
+  box-shadow: 2px 2px 4px black;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-red:active {
+  box-shadow: none;
+  background-color: darkred;
+}
+
+.dashboard {
+  width: 90%;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.stat-box {
+  border: 2px solid black;
+  width: 30%;
+  margin: 10px 0px;
+}
+
+.backlog, .in-progress, .completed {
+  margin: 0px;
+  border: 2px solid black;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backlog {
+  background-color: cornflowerblue;
+}
+
+.in-progress {
+  background-color: gold;
+}
+
+.completed {
+  background-color: darkseagreen;
+}
+
+.card {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 4px black;
+}
+
+.add-project {
+  width: 20vw;
+  height: 50vh;
+}
+
+#add-proj-btn {
+  margin-top: 5vh;
+}
+
+.dash-btn {
+  width: 20vw;
+  height: 5vh;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px darkgray;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#start-proj-btn {
+  background-color: gold;
+}
+
+#start-proj-btn:active {
+  box-shadow: none;
+  background-color: goldenrod;
+}
+
+#in-prog-btn {
+  background-color: darkseagreen;
+}
+
+#in-prog-btn:active {
+  background-color: green;
+  box-shadow: none;
+}
+
+#comp-btn {
+  background-color: lightpink;
+}
+
+#comp-btn:active {
+  background-color: red;
+  color: white;
+  box-shadow: none;
+}
+
+#add-proj-btn {
+  background-color: cornflowerblue;
+}
+
+#add-proj-btn:active {
+  background-color: blue;
+  color: white;
+  box-shadow: none;
+}
+
+#logout-btn:active {
+  background-color: gray;
+  box-shadow: none;
+}
